@@ -6,6 +6,8 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
 import Portfolio from './Components/Portfolio';
+import fs from 'fs';
+import images from './data';
 
 class App extends Component {
 
@@ -21,31 +23,32 @@ class App extends Component {
 
   }
 
-  getResumeData(){
-    $.ajax({
-      url:'/resumeData.json',
-      dataType:'json',
-      cache: false,
-      success: function(data){
-        this.setState({resumeData: data});
-      }.bind(this),
-      error: function(xhr, status, err){
-        console.log(err);
-        alert(err);
-      }
-    });
-  }
+  // getResumeData = () =>{
+  //   $.ajax({
+  //     url:'./resumeData.json',
+  //     dataType:'json',
+  //     cache: false,
+  //     success: function(data){
+  //       console.log(data);
+  //       this.setState({resumeData: data});
+  //     }.bind(this),
+  //     error: function(xhr, status, err){
+  //       console.log(err);
+  //       alert(err);
+  //     }
+  //   });
+  // }
 
-  componentDidMount(){
-    this.getResumeData();
-  }
+  // componentDidMount(){
+  //   this.getResumeData();
+  // }
 
   render() {
     return (
       <div className="App">
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
-        <Portfolio data={this.state.resumeData.portfolio}/>
+        <Portfolio data={images}/>
         <Footer data={this.state.resumeData.main}/>
       </div>
     );

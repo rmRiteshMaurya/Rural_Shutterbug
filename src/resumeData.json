@@ -1,0 +1,104 @@
+{
+  "main": {
+    "name": "Ritesh Maurya",
+    "company": "Rural Shutterbug",
+    "occupation": "Photography",
+    "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "image": "profilepic.jpg",
+    "bio": "About me ",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "riteshvns19@gmail.com",
+    "phone": "9616696233",
+    "address": {
+      "street": "Jakkhini",
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "zip": "221305"
+    },
+  
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/profile.php?id=100010520802382",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/RiteshM57731846",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/ritesh-maurya-1212a7212/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/_ritesh19_/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/rmRiteshMaurya",
+        "className": "fa fa-github"
+      }
+    ],
+    "social1":[
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/profile.php?id=100010520802382",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/RiteshM57731846",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/_ritesh19_/",
+        "className": "fa fa-instagram"
+      }
+    ]
+  },
+  
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "img1.jpg"
+      },
+      {
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "img2.jpg"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "img3.jpg"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "img4.jpg"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "img6.jpg"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "img7.jpg"
+      },
+      {
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "img5.jpg"
+      }
+    ]
+  }
+}
