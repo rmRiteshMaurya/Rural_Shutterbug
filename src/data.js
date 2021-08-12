@@ -1,37 +1,77 @@
 export default [
     {
-      "title": "Canadian Wanderlust",
-      "category": "My Travel Blog for my post-university travels",
-      "image": "img1.jpg"
+      "id": "1",
+      "imageName": 'img1.jpg',
+      "tag": 'Flower'
     },
     {
-      "title": "Fury Fighting Gear",
-      "category": "(offline now) A fighting gear company I started",
-      "image": "img2.jpg"
+      "id": "2",
+      "imageName": 'img2.jpg',
+      "tag": 'Animal'
     },
     {
-      "title": "Original Thai Food",
-      "category": "Website I built for a restaurant I like in Thailand",
-      "image": "img3.jpg"
+      "id": "3",
+      "imageName": 'img3.jpg',
+      "tag": 'Trees'
     },
     {
-      "title": "Resume Website",
-      "category": "A React based resume website template",
-      "image": "img4.jpg"
+      "id": "4",
+      "imageName": 'img4.jpg',
+      "tag": 'Road'
     },
     {
-      "title": "Resume Website",
-      "category": "A React based resume website template",
-      "image": "img6.jpg"
+      "id": "5",
+      "imageName": 'img5.jpg',
+      "tag": 'Nature'
     },
     {
-      "title": "Resume Website",
-      "category": "A React based resume website template",
-      "image": "img7.jpg"
+      "id": "6",
+      "imageName": 'img6.jpg',
+      "tag": 'Art/Craft'
     },
     {
-      "title": "Smirkspace",
-      "category": "(MVP Only) A React and Meteor based chat University project.",
-      "image": "img5.jpg"
+      "id": "7",
+      "imageName": 'img7.jpg',
+      "tag": 'Road'
+    },
+    {
+      "id": "8",
+      "imageName": 'img8.jpg',
+      "tag": 'Nature'
+    },
+    {
+      "id": "9",
+      "imageName": 'img9.jpg',
+      "tag": 'Trees'
+    },
+    {
+      "id": "10",
+      "imageName": 'img10.jpg',
+      "tag": 'Animal'
+    },
+    {
+      "id": "11",
+      "imageName": 'img11.jpg',
+      "tag": 'Art/Craft'
+    },
+    {
+      "id": "12",
+      "imageName": 'img12.jpg',
+      "tag": 'Flower'
+    },
+    {
+      "id": "13",
+      "imageName": 'img13.jpg',
+      "tag": 'Road'
+    },
+    {
+      "id": "14",
+      "imageName": 'img14.jpg',
+      "tag": 'Trees'
+    },
+    {
+      "id": "15",
+      "imageName": 'img15.jpg',
+      "tag": 'Flower'
     }
   ]
