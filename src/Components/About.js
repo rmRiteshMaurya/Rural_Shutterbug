@@ -12,7 +12,7 @@ class About extends Component {
       var state = this.props.data.address.state;
       var zip = this.props.data.address.zip;
       // var phone= this.props.data.phone;
-      var email = this.props.data.email;
+      // var email = this.props.data.email;
       // var resumeDownload = this.props.data.resumedownload;
       // var networks= this.props.data.social.map(function(network){
       //    return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
@@ -35,10 +35,10 @@ class About extends Component {
                   <p className="address">
 						   <span>{name}</span><br />
 						   <span>{street}<br />
-						         {city} {state}, {zip}
+						         {city}, {state}, {zip}
                    </span><br />
 						   {/* <span>{phone}</span><br /> */}
-                     <span>{email}</span>
+                     <span><a href="mailto:riteshvns19@gmail.com">riteshvns19@gmail.com</a></span>
 					   </p>
                   {/* <ul className="social">
                      {networks}

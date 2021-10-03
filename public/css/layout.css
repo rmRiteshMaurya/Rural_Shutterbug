@@ -51,8 +51,9 @@ header .banner {
    width: 85%;
    padding-bottom: 30px;
    text-align: center;
+   background-color: rgba(162, 175, 114, 0.4);
+   border-radius: 2em;
 }
-
 header .banner-text { width: 100%; }
 header .banner-text h2 {
    font: 50px/1.1em 'opensans-bold', sans-serif;

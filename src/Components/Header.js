@@ -4,11 +4,7 @@ class Header extends Component {
   render() {
 
     if(this.props.data){
-      var name = this.props.data.name;
       var company = this.props.data.company;
-      var occupation= this.props.data.occupation;
-      var description= this.props.data.description;
-      var city= this.props.data.address.city;
       var networks= this.props.data.social1.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
