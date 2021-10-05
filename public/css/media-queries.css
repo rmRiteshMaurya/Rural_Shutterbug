@@ -239,6 +239,27 @@
    #portfolio-wrapper .columns { margin-bottom: 40px; }
    .popup-modal {	max-width: 85%; }
 
+   #portfolio .tags {
+      text-align: center;
+      padding: 5px 0px;
+      background-color:  #ebeeee;
+      margin-bottom: 2rem;
+   }
+   
+   #portfolio .tag {
+      outline: none;
+      border: none;
+      color: black;
+      font-size: small;
+      margin: 0px 0px;
+      background-color: transparent;
+      cursor: pointer;
+   }
+   
+    #portfolio .active {
+      font-weight: bold;
+      border-bottom: 3px solid #e26000;
+   }
 
    /* contact Section
    ----------------------------------------------------------------------- */

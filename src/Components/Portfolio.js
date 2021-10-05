@@ -15,18 +15,25 @@ class Portfolio extends Component {
     );
   };
   setTag = (tag) => {
-    console.log(tag);
+    // console.log(tag);
     this.setState({
       tag: tag
     })
   }
   render() {
-    console.log(this.props.data);
+    const options = {
+      settings: {
+        autoplaySpeed: 2000,
+        transitionSpeed: 900,
+        downloadedFileName: 'RuralShutterbug'
+      }
+    };
+    // console.log(this.props.data);
     var projects = (
-      <SRLWrapper>
+      <SRLWrapper options={options}>
         <ResponsiveMasonry columnsCountBreakPoints={{ 350: 2, 750: 2, 900: 3 }}>
           <Masonry>
-            {this.state.tag !== 'All' ? this.props.data.filter(a => a.tag== this.state.tag).map((image, index) => (
+            {this.state.tag !== 'All' ? this.props.data.filter(a => a.tag === this.state.tag).map((image) => (
               <a href={`/images/portfolio/${image.imageName}`}>
                 <img
                   className="image"
@@ -34,7 +41,7 @@ class Portfolio extends Component {
                   alt=""
                 />
               </a>
-            )) : this.props.data.map((image, index) => (
+            )) : this.props.data.map((image) => (
               <a href={`/images/portfolio/${image.imageName}`}>
                 <img
                   className="image"
@@ -55,7 +62,7 @@ class Portfolio extends Component {
             <h1>Free Photography and Creative photos by Rural Shutterbug </h1>
             <div className="tags">
               <this.TagButton
-                name="all"
+                name="All"
                 tagActive={this.state.tag === "All" ? true : false}
                 handleSetTag={this.setTag}
               />{" "}
@@ -93,6 +100,12 @@ class Portfolio extends Component {
               <this.TagButton
                 name="Road"
                 tagActive={this.state.tag === "Road" ? true : false}
+                handleSetTag={this.setTag}
+              />{" "}
+              /
+              <this.TagButton
+                name="Others"
+                tagActive={this.state.tag === "Others" ? true : false}
                 handleSetTag={this.setTag}
               />
             </div>
