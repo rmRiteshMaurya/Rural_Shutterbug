@@ -12,7 +12,7 @@ class About extends Component {
       var state = this.props.data.address.state;
       var zip = this.props.data.address.zip;
       // var phone= this.props.data.phone;
-      // var email = this.props.data.email;
+      var email = this.props.data.email;
       // var resumeDownload = this.props.data.resumedownload;
       // var networks= this.props.data.social.map(function(network){
       //    return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
@@ -23,7 +23,7 @@ class About extends Component {
       <section id="about">
       <div className="row">
          <div className="three columns">
-            <img className="profile-pic"  src={profilepic} alt="Tim Baker Profile Pic" />
+            <img className="profile-pic"  src={profilepic} alt="" />
          </div>
          <div className="nine columns main-col">
             <h2>About Me</h2>
@@ -38,7 +38,7 @@ class About extends Component {
 						         {city}, {state}, {zip}
                    </span><br />
 						   {/* <span>{phone}</span><br /> */}
-                     <span><a href="mailto:riteshvns19@gmail.com">riteshvns19@gmail.com</a></span>
+                     <span><a href="mailto:riteshvns19@gmail.com">{email}</a></span>
 					   </p>
                   {/* <ul className="social">
                      {networks}

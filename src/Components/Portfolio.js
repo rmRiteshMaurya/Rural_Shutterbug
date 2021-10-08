@@ -59,7 +59,7 @@ class Portfolio extends Component {
       <section id="portfolio">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Free Photography and Creative photos by Rural Shutterbug </h1>
+            <h1>"Free Photography and Creative photos by Rural Shutterbug "</h1>
             <div className="tags">
               <this.TagButton
                 name="All"
@@ -86,8 +86,8 @@ class Portfolio extends Component {
               />{" "}
               /
               <this.TagButton
-                name="Trees"
-                tagActive={this.state.tag === "Trees" ? true : false}
+                name="Illumination"
+                tagActive={this.state.tag === "Illumination" ? true : false}
                 handleSetTag={this.setTag}
               />{" "}
               /

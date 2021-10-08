@@ -4,6 +4,9 @@ class Footer extends Component {
   render() {
 
     if(this.props.data){
+      var copyrights= this.props.data.copyright;
+      var copytag= this.props.data.copyrighttag;
+      var Design= this.props.data.design;
       var networks= this.props.data.social1.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
@@ -19,8 +22,8 @@ class Footer extends Component {
            </ul>
 
            <ul className="copyright">
-              <li>&copy; Copyright 2021 <a className="smoothscroll" title="Back to Top" href="#home">Rural Shutterbug</a></li>
-              <li>Design by Ritesh Maurya</li>
+              <li>&copy; {copyrights}<a href="https://www.ruralshutterbug.live">{copytag}</a></li>
+              <li>{Design}</li>
            </ul>
 
         </div>

@@ -5,6 +5,7 @@ class Header extends Component {
 
     if(this.props.data){
       var company = this.props.data.company;
+      var Note = this.props.data.note;
       var networks= this.props.data.social1.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
@@ -29,7 +30,7 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h2 className="responsive-headline">{company}</h2>
-            <h3>Find your perfect wallpaper and download the image or photo for free. Use wallpapers on your phone, desktop background, website and more.</h3>
+            <h3>{Note}</h3>
             <hr />
             <ul className="social1">
                {networks}
