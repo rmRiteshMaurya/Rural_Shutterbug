@@ -103,5 +103,35 @@ export default [
       "id": "21",
       "imageName": 'img21.jpg',
       "tag": 'Road'
+    },
+    {
+      "id": "22",
+      "imageName": 'img22.jpg',
+      "tag": 'Art/Craft'
+    },
+    {
+      "id": "23",
+      "imageName": 'img23.jpg',
+      "tag": 'Animal'
+    },
+    {
+      "id": "24",
+      "imageName": 'img24.jpg',
+      "tag": 'Flower'
+    },
+    {
+      "id": "25",
+      "imageName": 'img25.jpg',
+      "tag": 'Animal'
+    },
+    {
+      "id": "26",
+      "imageName": 'img26.jpg',
+      "tag": 'Illumination'
+    },
+    {
+      "id": "27",
+      "imageName": 'img27.jpg',
+      "tag": 'Nature'
     }
   ]
