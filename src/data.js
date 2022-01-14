@@ -133,5 +133,45 @@ export default [
       "id": "27",
       "imageName": 'img27.jpg',
       "tag": 'Nature'
+    },
+    {
+      "id": "28",
+      "imageName": 'img28.jpg',
+      "tag": 'Flower'
+    },
+    {
+      "id": "29",
+      "imageName": 'img29.jpg',
+      "tag": 'Nature'
+    },
+    {
+      "id": "30",
+      "imageName": 'img30.jpg',
+      "tag": 'Flower'
+    },
+    {
+      "id": "31",
+      "imageName": 'img31.jpg',
+      "tag": 'Animal'
+    },
+    {
+      "id": "32",
+      "imageName": 'img32.jpg',
+      "tag": 'Flower'
+    },
+    {
+      "id": "33",
+      "imageName": 'img33.jpg',
+      "tag": 'Flower'
+    },
+    {
+      "id": "34",
+      "imageName": 'img34.jpg',
+      "tag": 'Nature'
+    },
+    {
+      "id": "35",
+      "imageName": 'img35.jpg',
+      "tag": 'Nature'
     }
   ]
