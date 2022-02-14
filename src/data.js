@@ -177,36 +177,36 @@ export default [
     {
       "id": "36",
       "imageName": 'img36.jpg',
-      "tag": 'Nature'
+      "tag": 'Flower'
     },
     {
       "id": "37",
       "imageName": 'img37.jpg',
-      "tag": 'Nature'
+      "tag": 'Product'
     },
     {
       "id": "38",
       "imageName": 'img38.jpg',
-      "tag": 'Nature'
+      "tag": 'Animal'
     },
     {
       "id": "39",
       "imageName": 'img39.jpg',
-      "tag": 'Nature'
+      "tag": 'Animal'
     },
     {
       "id": "40",
       "imageName": 'img40.jpg',
-      "tag": 'Nature'
+      "tag": 'Road'
     },
     {
       "id": "41",
       "imageName": 'img41.jpg',
-      "tag": 'Nature'
+      "tag": 'Flower'
     },
     {
       "id": "42",
       "imageName": 'img42.jpg',
-      "tag": 'Nature'
+      "tag": 'Flower'
     }
   ]

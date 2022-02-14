@@ -104,6 +104,12 @@ class Portfolio extends Component {
               />{" "}
               /
               <this.TagButton
+                name="Product"
+                tagActive={this.state.tag === "Product" ? true : false}
+                handleSetTag={this.setTag}
+              />{" "}
+              /
+              <this.TagButton
                 name="Others"
                 tagActive={this.state.tag === "Others" ? true : false}
                 handleSetTag={this.setTag}
